@@ -1,4 +1,3 @@
-
 sg_token <- "SG_APIM_DT8W1JP28EAFXG5WG3QDNQTVSCHPYVF9Z669DAVDK7J1A53YFDHG"
 
 # Liste over de postnumre du vil hente data for
