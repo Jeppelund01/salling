@@ -1,20 +1,4 @@
-library(httr)
-library(dplyr)
-library(jsonlite)
 
-
-####################################################
-# Salling Group - Anti Food Waste
-# Hent data lokalt for flere postnumre
-# HVER linje forklaret
-####################################################
-
-# Indlæser pakker der bruges til API-kald, JSON parsing og datahåndtering
-library(httr)      # bruges til GET requests
-library(RMariaDB)  # bruges til at konvertere JSON → R
-library(dplyr)     # bruges til at samle dataframes
-
-# Gemmer din Salling Group API token i en variabel
 sg_token <- "SG_APIM_DT8W1JP28EAFXG5WG3QDNQTVSCHPYVF9Z669DAVDK7J1A53YFDHG"
 
 # Liste over de postnumre du vil hente data for
