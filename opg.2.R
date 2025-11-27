@@ -1,5 +1,3 @@
-install.packages("RMariaDB")
-install.packages("tidyverse")
 library(httr)
 library(dplyr)
 library(jsonlite)
@@ -13,7 +11,7 @@ library(jsonlite)
 
 # Indlæser pakker der bruges til API-kald, JSON parsing og datahåndtering
 library(httr)      # bruges til GET requests
-library(jsonlite)  # bruges til at konvertere JSON → R
+library(RMariaDB)  # bruges til at konvertere JSON → R
 library(dplyr)     # bruges til at samle dataframes
 
 # Gemmer din Salling Group API token i en variabel
